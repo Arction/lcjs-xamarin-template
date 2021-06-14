@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "O2xj3AYQRTJvsRcYMPx8kUdZhHNVfJMeLLWPlv5V5Hzr050LU2en/p4fKy7nYtsvRLqThFcFEfXEqq4peg8yEw==",
+  "success": true,
+  "projectFilePath": "D:\\LC-JS\\xamarine\\App4\\App4\\App4.iOS\\App4.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ChetanaKamble\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ChetanaKamble\\.nuget\\packages\\xamarin.forms\\3.4.0.1008975\\xamarin.forms.3.4.0.1008975.nupkg.sha512"
+  ],
+  "logs": []
+}

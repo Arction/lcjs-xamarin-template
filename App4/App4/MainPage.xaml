@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App4"
+             x:Class="App4.MainPage">
+    <ContentPage.Content>
+    <StackLayout Padding="5">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <!--<Entry Text="" x:Name="urlEntry" Placeholder="Enter url"/>-->
+            <Picker x:Name="chart" Title="Select Chart" >
+                <Picker.Items>
+                    <x:String>Line chart</x:String>
+                    <x:String>3D chart</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Get Data from url" Clicked="getData"  BackgroundColor="White" TextColor="Black"/>
+        <StackLayout>
+            <ScrollView>
+                <WebView x:Name="Browser" x:Uid="Browser" VerticalOptions="FillAndExpand" HeightRequest="500"/>
+            </ScrollView>
+            
+        </StackLayout>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
