@@ -844,11 +844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\welem\\Documents\\LCJS\\xamarin\\xamarine-template\\App4\\App4\\App4.Android\\App4.Android.csproj",
+      "projectUniqueName": "C:\\Users\\welem\\Documents\\LCJS\\lcjs-xamarin-template\\App4\\App4.Android\\App4.Android.csproj",
       "projectName": "App4.Android",
-      "projectPath": "C:\\Users\\welem\\Documents\\LCJS\\xamarin\\xamarine-template\\App4\\App4\\App4.Android\\App4.Android.csproj",
+      "projectPath": "C:\\Users\\welem\\Documents\\LCJS\\lcjs-xamarin-template\\App4\\App4.Android\\App4.Android.csproj",
       "packagesPath": "C:\\Users\\welem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\welem\\Documents\\LCJS\\xamarin\\xamarine-template\\App4\\App4\\App4.Android\\obj\\",
+      "outputPath": "C:\\Users\\welem\\Documents\\LCJS\\lcjs-xamarin-template\\App4\\App4.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -871,8 +871,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\welem\\Documents\\LCJS\\xamarin\\xamarine-template\\App4\\App4\\App4\\App4.csproj": {
-              "projectPath": "C:\\Users\\welem\\Documents\\LCJS\\xamarin\\xamarine-template\\App4\\App4\\App4\\App4.csproj"
+            "C:\\Users\\welem\\Documents\\LCJS\\lcjs-xamarin-template\\App4\\App4\\App4.csproj": {
+              "projectPath": "C:\\Users\\welem\\Documents\\LCJS\\lcjs-xamarin-template\\App4\\App4\\App4.csproj"
             }
           }
         }

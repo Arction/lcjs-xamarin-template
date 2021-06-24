@@ -41,19 +41,19 @@ namespace App4
                 }
                 else
                 {
-                     // Using Evaluate function sent json data to javascript for 3D chart.
+                    // Using Evaluate function sent json data to javascript for 3D chart.
                     // create series by passing number of series , number of points in each series
-                   // to generator function  
-                    var point = GeneratePointSeries(3,50);
+                    // to generator function  
+                    var point = GeneratePointSeries(3, 50);
                     string output = Newtonsoft.Json.JsonConvert.SerializeObject(point);
                     Browser.EvaluateJavaScriptAsync(("javascript:ClearAll()"));
-                    Browser.EvaluateJavaScriptAsync(("javascript:show3Dchart("+ output + ")"));  
+                    Browser.EvaluateJavaScriptAsync(("javascript:show3Dchart(" + output + ")"));
                 }
             }
-           
+
         }
 
-       
+
 
         private List<Point3D[]> GeneratePointSeries(int seriesCount, int pointsPerSeries)
         {
@@ -62,22 +62,20 @@ namespace App4
 
             for (int i = 0; i < seriesCount; i++)
             {
-              
+
                 Point3D[] points = new Point3D[pointsPerSeries];
                 for (int j = 0; j < pointsPerSeries; j++)
                 {
-                    
-                     points[j] = new Point3D(j, r.Next(0, 100), r.Next(0, 100));
-                   
+
+                    points[j] = new Point3D(j, r.Next(0, 100), r.Next(0, 100));
+
                 }
                 pointSeries.Add(points);
             }
-           
+
             return pointSeries;
         }
-
-     
-
+        
     }
 
 
